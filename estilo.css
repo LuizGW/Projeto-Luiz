@@ -1,0 +1,79 @@
+body {
+    background-color: lightblue;
+}
+
+header {
+    background: lightseagreen;
+    padding: 10px 0;
+}
+
+
+.cabeçalho{
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px
+}
+nav a {
+    text-transform: uppercase; 
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #097905;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 20px; font-weight: bolder; padding: 20px 0;
+}
+
+p {
+font-size: 18px; 
+font-weight: 600;
+padding: 10px 0 20px;
+color: rgb(0, 17, 17);
+}
+
+.h-p {
+    margin: 40px 0;
+}
+
+li {
+    padding: 5px 0;
+    color: #097905;
+}
+
+p {
+    color: #097905;
+}
+
+footer {
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 10px 0;
+}
+
+.copyright {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin: 10px 0 0;
+}
